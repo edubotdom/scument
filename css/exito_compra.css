@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+div#texto{
+	font-family: Montserrat;
+	text-align: center;
+	padding-top: 10%;
+}
+

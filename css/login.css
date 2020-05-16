@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+input {
+
+	background: linear-gradient(to bottom, white 2%, lightblue 98%);
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #057fd0;
+	display: inline-block;
+	cursor: pointer;
+	font-size: 15px;
+	padding: 6px 24px;
+}
+input:hover {
+	background: linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	background-color: #019ad2;
+}
+input:active {
+	position: relative;
+	top: 1px;
+}
+
+body {
+	font-size: 16px;
+	font-family: Montserrat;
+}
+
+main {
+	margin: 2%;
+	text-align:center;
+}
+#formulario_login{
+	padding-top:4%;
+}
+
+a.registrate_usuario, a.registrate_empresa {
+	display: inline-block;
+	background-color: #a7b3d6;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 16px;
+	margin: 5px;
+	padding: 5px;
+	cursor: pointer;
+}
+
+a.registrate_usuario:hover, a.registrate_empresa:hover {
+	color: #a09a1e;
+	font-size: 18px;
+}
+

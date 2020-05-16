@@ -1,0 +1,14 @@
+footer {
+	background-color: powderblue;
+	border-top: 2px solid black;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	clear: both;
+}
+
+
+p.pie {
+	text-align: center;
+	font-size: 12px;
+}

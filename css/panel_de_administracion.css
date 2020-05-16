@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+	font-size: 16px;
+}
+
+header {
+	font-family: Montserrat;
+}
+
+nav {
+	padding-top: .9em;
+}
+
+div#modificar_productos, div#modificar_servicios, div#bajas{
+	width: 12%;	
+	height: 20%;
+	display: inline-block;
+	float: left;
+	font-family: Montserrat;
+}
+
+div#modificar_productos div.imagen img, div#modificar_servicios div.imagen img, div#bajas div.imagen img{
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+
+div#modificar_productos div.boton, div#modificar_servicios div.boton, div#bajas div.boton{
+	margin-block: 5%;
+	padding: 5%;
+	clear: both;
+}
+
+div#modificar_productos a.button, div#modificar_servicios a.button, div#bajas a.button{
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	text-align: center;	
+}
+
+#modificar_productos{
+	margin-left: 30%;
+	float: left;
+}
+
+#modificar_servicios{
+	margin-left: 2%;
+	float: left;
+}
+
+#bajas{
+	margin-left: 2%;
+	margin-right: 7%;
+	float: left;
+	clear: right;
+	
+}
+
+
+div.imagen{
+	display: block;
+  	clear: both;
+  	margin-top: 20%;
+}
+div.imagen img{
+	width: 50%;	
+}
+
+nav#menu{
+	margin-top: 12%;
+}
+
+.button {
+	background-color: powderblue;
+	border-radius: 8px;
+	border: 1px solid #42ebf4;
+	color: black;
+	padding: 1.5em;
+	text-decoration: none;
+}
+
+.button:focus, .button:hover {
+	background-color: lightblue;
+	color: black;
+}
+

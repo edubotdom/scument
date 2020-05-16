@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+div.foto{
+	float:left;
+	padding: 1%;
+	padding-right: 3%;
+
+}
+
+article.INFO_OBJETO {
+	font-family: Roboto;
+	padding-top: 3%;
+
+}

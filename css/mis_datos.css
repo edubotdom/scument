@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+div.mis_datos1 {
+	background-color: #91a8ad;
+	border-radius: 5px;
+	float: left;
+	margin-left: 2%;
+	font-family: Roboto;
+}
+div.mis_datos2 {
+	background-color: #91a8ad;
+	border-radius: 5px;
+	float: left;
+	clear: right;
+	margin-left: 2%;
+	font-family: Roboto;
+}
+
+p {
+	padding-left: 5px;
+}
+header#parte{
+	font-family: Montserrat;
+}
+
+button#boton_transacciones {
+	margin-left: 5%;
+	cursor: pointer;
+	text-decoration: none;
+	padding: 10px;
+	font-weight: 600;
+	font-size: 20px;
+	color: #ffffff;
+	background-color: #1883ba;
+	border-radius: 6px;
+	border: 2px solid #0016b0;
+}
+button#boton_transacciones:hover {
+	color: #1883ba;
+	background-color: #ffffff;
+}
+
+body {
+	font-size: 16px;
+}

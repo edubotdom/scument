@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+	font-size: 16px;
+}
+
+header {
+	font-family: Montserrat;
+}
+
+nav {
+	padding-top: .9em;
+}
+
+div#ofertas, div#productos, div#servicios, div#localizacion, div#contactenos, div#ctrl_precio{
+	width: 12%;	
+	height: 20%;
+	display: inline-block;
+	float: left;
+	font-family: Montserrat;
+}
+
+div#ofertas div.imagen img, div#productos div.imagen img, div#servicios div.imagen img, div#localizacion div.imagen img, div#contactenos div.imagen img, div#ctrl_precio div.imagen img{
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+
+div#ofertas div.boton, div#productos div.boton, div#servicios div.boton, div#localizacion div.boton, div #contactenos div.boton, div#ctrl_precio div.boton{
+	margin-block: 5%;
+	padding: 5%;
+	clear: both;
+}
+
+div#ofertas a.button, div#productos a.button, div#servicios a.button, div#localizacion a.button, div#contactenos a.button, div#ctrl_precio a.button{
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	text-align: center;	
+}
+
+#ofertas{
+	margin-left: 7%;
+	float: left;
+}
+
+#productos{
+	margin-left: 2%;
+	float: left;
+}
+
+#servicios{
+	margin-left: 2%;
+	float: left;
+	
+}
+
+#localizacion{
+	margin-left: 2%;
+	float: left;
+	
+}
+
+#contactenos{
+	margin-left: 2%;
+	margin-right: 7%;
+	float: left;
+	clear: right;
+	
+}
+
+#ctrl_precio{
+	margin-left: 2%;
+	float: left;
+}
+
+div.imagen{
+	display: block;
+  	clear: both;
+  	margin-top: 20%;
+}
+div.imagen img{
+	width: 50%;	
+}
+
+nav#menu{
+	margin-top: 12%;
+}
+
+.button {
+	background-color: powderblue;
+	border-radius: 8px;
+	border: 1px solid #42ebf4;
+	color: black;
+	padding: 1.5em;
+	text-decoration: none;
+}
+
+.button:focus, .button:hover {
+	background-color: lightblue;
+	color: black;
+}
+
+@media screen and (max-width:680px) {
+	div#ofertas, div#productos, div#servicios, div#localizacion, div#contactenos, div#ctrl_precio{
+		margin-right: 20%;
+	}
+	
+	body{
+		font-size: 30px;
+	}
+	
+
+	
+	div#ofertas{
+		margin-top:0px;
+	}
+	
+	div#ctrl_precio{
+		margin-top:200px;
+	}
+	
+	div#productos{
+		margin-top:400px;
+	}
+	
+	div#servicios{
+		margin-top:600px;
+	}
+	
+	div#localizacion{
+		margin-top:800px;
+	}
+	
+	div#contactenos{
+		margin-top:1000px;
+	}
+	
+	
+
+}
+

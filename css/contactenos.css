@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+div.horario {
+	border: 2px solid black;
+	display: table;
+	font-family: Roboto;
+  	margin-left: 17%;
+  	margin-right: auto;
+}
+th, td {
+	background-color: #b7b7b7;
+	width: 25%;
+	border: 1px solid black;
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+	
+}
+
+p#presentacion, p#intro_tabla{
+  		margin-right: auto;
+  		display: block;
+  		margin-left: 13%;
+}
+
+body {
+	font-size: 16px;
+	font-family: Roboto;
+	text-align:left;
+}
+#seccion{
+	text-align:left;
+	margin-left: 0%;
+}
+.enlaces{
+	margin-left: 13%;
+}
+.resultados{
+	text-align: center;
+	position:left;
+}
+
+@media screen and (max-width:680px) {
+	div.horario {
+		text-align: left;
+		margin-left: 10%;
+		margin-right: 10%
+	}
+	
+	p#presentacion, p#intro_tabla{
+		text-align: left;
+		margin-left: 10%;
+		margin-right: 10%
+	}
+	
+	
+	
+	
+	.enlaces{
+		text-align: left;
+		margin-left: 10%;
+		margin-right: 10%
+	}
+	
+	.resultados{
+		margin-top:5%;
+		text-align: center;
+		
+	}
+}

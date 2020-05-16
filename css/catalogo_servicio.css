@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+nav{
+	margin: 2%;
+	font-family: Montserrat;
+}
+
+article.SERVICIOS {
+	display: inline;
+	min-height:200px;
+	background-color: powderblue;
+	padding-left: 1%;
+	padding-right: 1%;
+	border: 2px solid orange;
+	float: left;
+	margin-bottom: 0.5%;
+	margin-left: 4%;
+	margin-top: 7%;
+	font-family: Roboto;
+}
+
+header{
+	font-family: Montserrat;
+}
+
+article.SERVICIOS div.nombre {
+	font-size: 18px;
+}
+
+#enlaces {
+	float: left;
+	width: 25%;
+}
+
+div.botones_fila {
+	float: left;
+	width: 25%;
+}
+
+button.compra {
+	cursor: pointer;
+	text-decoration: none;
+	padding: 10px;
+	font-weight: 600;
+	font-size: 20px;
+	color: #ffffff;
+	background-color: #1883ba;
+	border-radius: 6px;
+	border: 2px solid #0016b0;
+}
+button.compra:hover {
+	color: #1883ba;
+	background-color: #ffffff;
+}
+
+body {
+	font-size: 16px;
+}
+
+article.SERVICIOS div {
+	padding-top: 1%;
+	padding-left: 1%;
+}

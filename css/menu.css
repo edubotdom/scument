@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+nav.menu {
+	display: inline-block;
+	background-color: #a7b3d6;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 14px;
+	margin: 5px;
+	padding: 5px;
+	cursor: pointer;
+	position:relative;
+	margin-top: 2.5%;
+	font-family: Montserrat;
+}
+
+nav#menu0.menu{
+	position: absolute;
+	right: 1%;
+}
+nav#menu1.menu{
+	position: absolute;
+	right: 75px;
+}
+nav#menu2.menu{
+	position: absolute;
+	right: 143px;
+}
+nav#menu3.menu{
+	position: absolute;
+	right: 240px;
+}
+
+
+nav a:hover {
+	color: #a09a1e;
+	font-size: 15px;
+}
+
